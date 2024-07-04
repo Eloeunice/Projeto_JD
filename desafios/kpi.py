@@ -13,12 +13,20 @@ bonus = float(input("Informe seu bonus em %:"))
 calculo_bonus = (1000 + salario * bonus)
 print(f"Olá {nome}, o seu salario é {salario} e com bonus fica {calculo_bonus}")
 
+# Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
+
+
 
 #Exercício 1
-
-
+   
+nome2 = input('Digite seu nome:')
+print(len(nome2)) 
 
 
 #Exercício 2
+num1 = input('Digite um valor:')
+num2 = input('Digite outro valor:')
 
+sum = len(num1) + len(num2)
+print(sum)
 
