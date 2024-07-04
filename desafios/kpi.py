@@ -7,8 +7,18 @@
 
 
 nome = input("Digite seu nome:")
-salario = float(input("Infome seu salario:"))
-bonus = float(input("Infome seu bonus em %:"))
+salario = float(input("Informe seu salario:"))
+bonus = float(input("Informe seu bonus em %:"))
 
-calculo_bonus = ((1000 + salario) * bonus)
+calculo_bonus = (1000 + salario * bonus)
 print(f"Olá {nome}, o seu salario é {salario} e com bonus fica {calculo_bonus}")
+
+
+#Exercício 1
+
+
+
+
+#Exercício 2
+
+
