@@ -1,15 +1,33 @@
-#Exercícios
+#EXERCÍCIOS
 
   #Inteiros (int)
 #Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+num1 = int(input('Digite o primeiro número:'))
+num2 = int(input('Digite o segundo número:'))
+sum = num1 + num2
+print(sum)
 
 #Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+num3 = int(input('Digite um número e eu te mostarei o resto da divisão desse número por 5:'))
+resto = num3 % 5
+print(resto)
 
 #Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+num4 = int(input('Digite o primeiro número:'))
+num5 = int(input('Digite o segundo número:'))
+mult = num4 * num5
+print(mult)
 
 #Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+num6 = int(input('Digite o primeiro número:'))
+num7 = int(input('Digite o segundo número:'))
+divisao_inteira = num6 // num7
+print(divisao_inteira)
 
 #Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+num8 = int(input('Digite um número e eu te mostarei oo quadrado desse número:'))
+square = num8**2
+print(square)
 
   #Números de Ponto Flutuante (float)
 #Escreva um programa que receba dois números flutuantes e realize sua adição.
